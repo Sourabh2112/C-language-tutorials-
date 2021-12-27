@@ -1,34 +1,36 @@
 #include<stdio.h>
+#include<string.h>
 
 struct studentid
 {
     int roll;
-    char branch [12];
+    char branch[12];
 
 }sourabh, aman, abhishek, shristy;
 
 int main()
 {
     sourabh.roll = 5165;
-    sourabh.branch[0] = 'entc b';
+    strcpy(sourabh.branch, "ENTC b");
     aman.roll = 1165;
-    aman.branch[1] = 'entc a';
+    strcpy(aman.branch, "ENTC a");
     abhishek.roll = 5171;
-    abhishek.branch[2] = 'entc b';
-    shristy.roll = 5165;
-    shristy.branch[3] = 'entc a' ;
+    strcpy(abhishek.branch, "ENTC b");
+    shristy.roll = 1175;
+    strcpy(shristy.branch, "ENTC a");
+
 printf("\n");
     printf("sourabh roll no. is %d\n", sourabh.roll);
-    printf("sourabh branch is %c\n", sourabh.branch);
+    printf("sourabh branch is %s\n", sourabh.branch);
 printf("\n");
     printf("aman roll no. is %d\n", aman.roll);
-    printf("aman branch is %c\n", aman.branch);
+    printf("aman ranch is %s\n", aman.branch);
 printf("\n");
     printf("abhishek roll no. is %d\n", abhishek.roll);
-    printf("abhishek branch is %c\n",abhishek.branch);
+    printf("abhishek branch is %s\n",abhishek.branch);
 printf("\n");
     printf("shristy roll no. is %d\n", shristy.roll);
-    printf("shristy branch is %c\n", shristy.branch);
+    printf("shristy branch is %s\n", shristy.branch);
 
     return 0;
 }
