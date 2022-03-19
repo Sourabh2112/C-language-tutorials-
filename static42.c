@@ -43,8 +43,8 @@ int main()
 {
     int b = 4, val;
 
-    val = func1(b);
-    val = func1(b);
+    // val = func1(b);
+    // val = func1(b);
 
     printf("%d\n", func1(b));
     printf("%d\n", func1(b));

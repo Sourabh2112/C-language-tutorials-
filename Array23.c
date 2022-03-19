@@ -1,7 +1,7 @@
 
 #include<stdio.h>
 
-/*
+
 // 1 dimensional array
 
 
@@ -37,7 +37,7 @@ int main()
 
   return 0;
 }
-*/
+
 
 // 2 dimensional array
 
